@@ -22,8 +22,9 @@ namespace homeWorkTenSumOfNumber
                 {
                     sumNumber += number;
                 }
-                --number;
+                number--;
             }
+
             Console.WriteLine(sumNumber);
         }
     }

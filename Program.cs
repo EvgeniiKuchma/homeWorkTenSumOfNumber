@@ -13,6 +13,8 @@ namespace homeWorkTenSumOfNumber
             Random rand = new Random();
             int number = rand.Next(0, 100);
             int sumNumber = 0;
+            int multiple1 = 3;
+            int multiple2 = 5;
 
             while (number > 0)
             {

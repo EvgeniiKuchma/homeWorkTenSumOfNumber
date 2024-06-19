@@ -10,22 +10,21 @@ namespace homeWorkTenSumOfNumber
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-            int number = rand.Next(0, 100);
+            Random random = new Random();
+            int number = random.Next(0, 100);
             int sumNumber = 0;
             int multiple1 = 3;
             int multiple2 = 5;
 
-            while (number > 0)
+            for (int i = 0; i < number; i++)
             {
-                
-                if (number % 3 == 0 || number % 5 == 0)
+                if (number % multiple1 == 0 || number % multiple2 == 0)
                 {
                     sumNumber += number;
                 }
-                number--;
-            } 
-            Console.WriteLine(sumNumber);
+                --number;
             }
+            Console.WriteLine(sumNumber);
         }
     }
+}

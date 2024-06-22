@@ -10,8 +10,9 @@ namespace homeWorkTenSumOfNumber
     {
         static void Main(string[] args)
         {
+            int maxRange = 100;
             Random random = new Random();
-            int number = random.Next(0, 100);
+            int number = random.Next(0, maxRange);
             int sumNumber = 0;
             int multiple1 = 3;
             int multiple2 = 5;
@@ -22,6 +23,7 @@ namespace homeWorkTenSumOfNumber
                 {
                     sumNumber += number;
                 }
+
                 number--;
             }
 

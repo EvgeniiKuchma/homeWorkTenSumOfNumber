@@ -19,12 +19,10 @@ namespace homeWorkTenSumOfNumber
 
             for (int i = 0; i <= number; i++)
             {
-                if (number % multiple1 == 0 || number % multiple2 == 0)
+                if (i % multiple1 == 0 || i % multiple2 == 0)
                 {
-                    sumNumber += number;
+                    sumNumber += i;
                 }
-
-                number--;
             }
 
             Console.WriteLine(sumNumber);

@@ -16,7 +16,7 @@ namespace homeWorkTenSumOfNumber
             int multiple1 = 3;
             int multiple2 = 5;
 
-            for (int i = 0; i < number; i++)
+            for (int i = 0; i <= number; i++)
             {
                 if (number % multiple1 == 0 || number % multiple2 == 0)
                 {
